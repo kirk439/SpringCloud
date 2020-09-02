@@ -12,8 +12,6 @@ SpringBoot微服务相关架构
 
 （4）搭建SpringBootConsumer，这个不是必须的，只有当一个更大的业务需要调用其他多个微服务Service时才需要搭建。
 
-         可以通过Ribbon+RestTemplate，Feign两种方式进行微服务之间的调用。可以加入Hystrix进行熔断处理。
-
 （5）搭建SpringBootZuul，用于路由控制。可以加入Hystrix用于熔断处理。
 
 （6）使用Jenkins进行代码的自动化部署。
